@@ -19,7 +19,13 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+        maven { url 'https://jitpack.io' }
+        maven { url "https://adcolony.bintray.com/AdColony" }
+        maven {
+            name "MFyber's maven repo"
+            url "https://fyber.bintray.com/maven"
+        }
+
     }
 }
 

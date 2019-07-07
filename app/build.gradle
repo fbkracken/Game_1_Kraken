@@ -52,4 +52,7 @@ dependencies {
 
     implementation 'com.daimajia.easing:library:2.1@aar'
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
+
+    implementation 'com.adcolony:sdk:3.3.10'
+    implementation 'com.fyber:fyber-sdk:8.22.2'
 }
