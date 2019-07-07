@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">GameJA</string>
+
+    <string name="complete_tasks">Complete tasks</string>
+    <string name="use_your_phone_to_complete_tasks_anywhere_near_you">Use your phone to complete tasks anywhere near you</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get started</string>
+    <string name="skip"><u>Skip</u></string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="gift_cards_for_free_fast_rewards">Gift Cards For Free -\nFast Rewards</string>
+    <string name="offers">Offers</string>
+    <string name="rewards">Rewards</string>
+    <string name="my_profile">My Profile</string>
+    <string name="faq">FAQ</string>
+    <string name="how_do_i_earn_coins">How do I earn Coins?</string>
+    <string name="it_is_easy_complete_different">It is easy. Complete different tasks, watch videos, try the Lucky Spin, and get your coins!</string>
+    <string name="i_completed_the_task_but_didn_t_get_my_coins">I completed the task but didn’t get my Coins</string>
+    <string name="most_of_the_time">Most of the time the tasks work and you can get coins for them. But sometimes they don’t. It happens because of some of our advertisers, who simply cheating us, or because something in tracking went wrong. We try to filter out the fake offers as fast as possible.</string>
+    <string name="i_requested_a_gift_card_how_long_will_i_have_to_wait">I requested a gift card. How long will I have to wait?</string>
+    <string name="redemption_of_the_gift_card_usually_takes_1_2_days">Redemption of the gift card usually takes 1-2 days.</string>
+    <string name="already_have">I already have an account on a different device. Can I link it to this account?</string>
+    <string name="we_don_t_have_such_opportunity_at_the_moment">We don’t have such opportunity at the moment.</string>
+    <string name="play">Play</string>
+    <string name="collect_coins">Collect Coins</string>
+    <string name="collect_coins_snap">Collect coins everywhere and snap up to 5 000 coins per offer</string>
+    <string name="get_your_rewards">Get Tour Rewards</string>
+    <string name="get_your_favorite">Get your favorite rewards by redeeming the coins you’ve collected</string>
+    <string name="welcome">Welcome</string>
+    <string name="start_earning">Start Earning</string>
+    <string name="coin_25">25</string>
+    <string name="psn_card">PSN Gift Cards</string>
+    <string name="xbox_card">Xbox Gift Cards</string>
+    <string name="amazon_card">Amazon Gift Cards</string>
+    <string name="pay_pal_card">PayPall Gift Cards</string>
+    <string name="ebay_card">eBay Gift Cards</string>
+    <string name="coin_50_000">50 000 Coins</string>
+    <string name="coin_50">$50</string>
+    <string name="coin_80_000">80 000 Coins</string>
+    <string name="coin_100">$100</string>
+    <string name="coin_120_000">120 000 Coins</string>
+    <string name="coin_200">$200</string>
+    <string name="coin_200_000">200 000 Coins</string>
+    <string name="coin_500">$500</string>
+    <string name="coin_300_000">300 000 Coins</string>
+    <string name="complete_tasks_collect_coins"><![CDATA[Complete Tasks & Collect Coins]]></string>
+    <string name="thimble_game">Thimble game</string>
+    <string name="i_don_t_have_any_tasks_to_complete">I don’t have any tasks to complete</string>
+    <string name="near_future"><![CDATA[We give only a few offers or don’t give offers at all for some countries. . In case you\'re from one of these countries, we can\'t really help you much. The only way you can earn more coin is Thimble Game & working offers. Sorry that we cannot help you more, but we will do our best to provide as many offers as possible for all countries in the near future!]]></string>
+    <string name="please_enter_your_email_address_to_redeem_rewards">Please enter your Email\naddress to Redeem Rewards</string>
+    <string name="save_changes">Save changes</string>
+    <string name="email_saved">Your email address has been saved</string>
+    <string name="email_not_valid">This email address isn’t valid</string>
+    <string name="tasks">Tasks</string>
+    <string name="enter_email">Enter Email</string>
+
+
+
+
+    <string name="congratulation">Congratulations!</string>
+    <string name="you_won_clicks_want_double">You Won %1$d clicks,\nwant to double it?</string>
+    <string name="you_won_clicks">You Won %1$d clicks</string>
+    <string name="string_double">Double</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings">Settings</string>
+    <string name="enter_your_email_to_receive_reward">Enter your Email to receive Reward</string>
+
+    <string name="tap_1_000_000_times">Tap 1 000 000 Times to\nBreak Diamond</string>
+    <string name="tap_boost">Tap and Double Your Clicks</string>
+    <string name="tap_spin">Spin Roulette every 3\nHours to Win a Reward!</string>
+    <string name="cheat_tasks">Cheat Tasks to Break\nDiamond FASTER</string>
+
+    <string name="are_your_sure_you_want_to_quit">Are your sure you want to quit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="quit">Quit</string>
+
+    <string name="give_daily_clicks">We give you %1$d clicks, thank you for\nbeing with us!</string>
+    <string name="claim">Claim</string>
+    <string name="increase_your_reward">You could increase your Reward\nto $%1$d or Get this Reward now</string>
+    <string name="daily_reward">Daily Reward!</string>
+    <string name="get_daily_reward">Get Your Daily Reward Now!</string>
+    <string name="spin_ready">Spin Again for More Clicks!</string>
+    <string name="get_gift_cards">Get Free Gift Cards</string>
+    <string name="new_offer_avaliable">New Offers Available!</string>
+    <string name="new_offer_waiting">New Offers waiting for you</string>
+    <string name="boost_toast">Boost x2 will be available in 15:00 minutes</string>
+    <string name="spin_toast">New spins will be available in 3:00:00</string>
+    <string name="get_now">Get Now</string>
+    <string name="get_more">Get More</string>
+    <string name="redeem">Redeem</string>
+    <string name="you_will_get_reward">You will get a reward within 10 business days</string>
+
+    <string name="more_prizes">More Prizes</string>
+    <string name="change_card">Now you have a chance to earn another gift card</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="ok">Ok</string>
+    <string name="check_internet">Please check your internet\nconnection</string>
+    <string name="sorry">Sorry!</string>
+    <string name="dont_enough_coins">You don`t have enough coins.</string>
+    <string name="later">Later</string>
+
+</resources>

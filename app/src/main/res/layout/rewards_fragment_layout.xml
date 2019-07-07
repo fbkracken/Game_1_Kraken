@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:text="@string/welcome"
+                android:gravity="center"
+                android:textSize="19sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:text="@string/complete_tasks_collect_coins"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="19sp"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/start_earning"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/play_btn"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:textAllCaps="true"
+                android:textColor="@color/btnTextColor"
+                android:background="@mipmap/bg_button"
+                android:layout_height="wrap_content"/>
+
+        <naet.vstserq.game_1_kraken.views.GiftsListView
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:id="@+id/psn_gifts_view"
+                android:layout_height="wrap_content"/>
+
+        <naet.vstserq.game_1_kraken.views.GiftsListView
+                android:layout_width="match_parent"
+                android:id="@+id/xbox_gifts_view"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"/>
+
+        <naet.vstserq.game_1_kraken.views.GiftsListView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:id="@+id/amazon_gifts_view"
+                android:layout_height="wrap_content"/>
+
+        <naet.vstserq.game_1_kraken.views.GiftsListView
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:id="@+id/pay_pal_gifts_view"
+                android:layout_height="wrap_content"/>
+
+        <naet.vstserq.game_1_kraken.views.GiftsListView
+                android:layout_width="match_parent"
+                android:id="@+id/ebay_gifts_view"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

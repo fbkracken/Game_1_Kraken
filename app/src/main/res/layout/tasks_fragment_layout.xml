@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="0dp"
+            android:src="@mipmap/offer_1"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="10dp"
+            android:id="@+id/best_offer_view"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/top_video_view"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:src="@mipmap/offer_2"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/best_offer_view"
+            android:id="@+id/top_video_view"
+            app:layout_constraintStart_toEndOf="@+id/best_offer_view"
+            app:layout_constraintBottom_toBottomOf="@+id/best_offer_view"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/thimble_game_view"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:src="@mipmap/offer_3"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/top_video_view"
+            app:layout_constraintStart_toEndOf="@+id/top_video_view"
+            app:layout_constraintBottom_toBottomOf="@+id/top_video_view"
+            android:id="@+id/thimble_game_view"
+            android:layout_margin="10dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:src="@mipmap/offer_4"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/super_offer_view"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintEnd_toStartOf="@+id/top_video_view"
+            android:layout_marginTop="170dp"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:src="@mipmap/offer_5"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/super_offer_view"
+            android:id="@+id/epic_offer_view"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:layout_constraintStart_toEndOf="@+id/best_offer_view"
+            app:layout_constraintBottom_toBottomOf="@+id/super_offer_view"
+            app:layout_constraintEnd_toStartOf="@+id/thimble_game_view"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:src="@mipmap/offer_6"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/epic_offer_view"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:layout_constraintStart_toEndOf="@+id/top_video_view"
+            app:layout_constraintBottom_toBottomOf="@+id/epic_offer_view"
+            android:id="@+id/rate_us_view"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

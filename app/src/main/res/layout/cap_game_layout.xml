@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="180dp"
+        android:layout_height="110dp">
+
+    <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/coin_view"
+            android:src="@mipmap/img_coins_3"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_height="40dp"/>
+
+    <ImageView
+            android:layout_width="80dp"
+            android:src="@mipmap/img_thimble"
+            android:layout_gravity="center"
+            android:id="@+id/cap_view"
+            android:layout_height="80dp"/>
+
+</FrameLayout>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/offer_btn"
+                android:icon="@mipmap/ic_offer"
+                android:title="@string/offers"/>
+        <item
+                android:id="@+id/rewards_btn"
+                android:icon="@mipmap/ic_rewards"
+                android:title="@string/rewards"/>
+        <item
+                android:id="@+id/profile_btn"
+                android:icon="@mipmap/ic_profile"
+                android:title="@string/my_profile"/>
+        <item
+                android:id="@+id/faq_btn"
+                android:icon="@mipmap/ic_faq"
+                android:title="@string/faq"/>
+    </group>
+
+</menu>

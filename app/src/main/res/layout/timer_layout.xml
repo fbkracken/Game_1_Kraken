@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:background="@mipmap/bg_timer"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:paddingBottom="2dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/minute_one"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:background="@mipmap/bg_timer"
+            android:textSize="23sp"
+            android:paddingBottom="2dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/minute_one"
+            android:id="@+id/minute_two"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:text=":"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:paddingBottom="7dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@+id/second_one"
+            app:layout_constraintStart_toEndOf="@+id/minute_two"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:background="@mipmap/bg_timer"
+            android:layout_marginLeft="20dp"
+            android:textSize="23sp"
+            android:paddingBottom="2dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/minute_two"
+            android:id="@+id/second_one"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:background="@mipmap/bg_timer"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_two"
+            android:textSize="23sp"
+            android:paddingBottom="2dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toEndOf="@+id/second_one"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

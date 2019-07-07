@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/bg_app"/>
+
+    <item
+            android:bottom="100dp"
+            android:left="100dp"
+            android:right="100dp">
+        <bitmap
+                android:gravity="center"
+                android:src="@mipmap/img_logo"/>
+    </item>
+
+    <item
+            android:top="300dp"
+            android:left="100dp"
+            android:right="100dp">
+        <bitmap
+                android:gravity="center"
+                android:src="@mipmap/gift_cards_for_free_fast_rewards"/>
+    </item>
+
+</layer-list>
